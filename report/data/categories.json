@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=86.0.4240.75)",
+      "children" : [ {
+        "name" : "test_Userinfo",
+        "uid" : "a76a83034d34882a",
+        "parentUid" : "1049784477ca657cec885a652866930b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602431446674,
+          "stop" : 1602431459717,
+          "duration" : 13043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1049784477ca657cec885a652866930b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,60 @@
+{
+  "d5f8e7b8c2814d67065b26f2f6834c20" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31a895b5e255793b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602431396581,
+        "stop" : 1602431397179,
+        "duration" : 598
+      }
+    } ]
+  },
+  "14b31ac21cf16034c30bb52b8a931291" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a76a83034d34882a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=86.0.4240.75)",
+      "time" : {
+        "start" : 1602431446674,
+        "stop" : 1602431459717,
+        "duration" : 13043
+      }
+    } ]
+  },
+  "5cec35245b71e08d4c80e0170e7f3656" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "140c21b0e31a37e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602430930712,
+        "stop" : 1602430930712,
+        "duration" : 0
+      }
+    } ]
+  }
+}
