@@ -1,0 +1,86 @@
+{
+  "uid" : "729f611e9eb8bce7",
+  "name" : "test_Userinfo",
+  "fullName" : "Web.test_example2.Test_Comm#test_Userinfo",
+  "historyId" : "14b31ac21cf16034c30bb52b8a931291",
+  "time" : {
+    "start" : 1602431407707,
+    "stop" : 1602431421269,
+    "duration" : 13562
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'NoneType' object has no attribute 'click'",
+  "statusTrace" : "self = <Web.test_example2.Test_Comm object at 0x00000196AA672C10>\n\n    def test_Userinfo(self):\n        time.sleep(1)\n        self.driver.get(\"http://testingedu.com.cn:8000/index.php/Home/User/info.html\")\n>       self.driver.find_element_by_xpath('//*[@id=\"preview\"]').click()\nE       AttributeError: 'NoneType' object has no attribute 'click'\n\nWeb\\test_example2.py:29: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1602431402364,
+      "stop" : 1602431407707,
+      "duration" : 5343
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1602431421269,
+      "stop" : 1602431423324,
+      "duration" : 2055
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Web"
+  }, {
+    "name" : "suite",
+    "value" : "test_example2"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Comm"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-U92SLKP9"
+  }, {
+    "name" : "thread",
+    "value" : "9308-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Web.test_example2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "729f611e9eb8bce7.json",
+  "parameterValues" : [ ]
+}

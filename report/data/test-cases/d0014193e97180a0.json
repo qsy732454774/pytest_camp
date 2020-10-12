@@ -1,0 +1,131 @@
+{
+  "uid" : "d0014193e97180a0",
+  "name" : "test_Userinfo",
+  "fullName" : "Web.test_example2.Test_Comm#test_Userinfo",
+  "historyId" : "14b31ac21cf16034c30bb52b8a931291",
+  "time" : {
+    "start" : 1602515389834,
+    "stop" : 1602515392499,
+    "duration" : 2665
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1602515383952,
+      "stop" : 1602515389193,
+      "duration" : 5241
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1602515392500,
+      "stop" : 1602515394608,
+      "duration" : 2108
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Web"
+  }, {
+    "name" : "suite",
+    "value" : "test_example2"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Comm"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-U92SLKP9"
+  }, {
+    "name" : "thread",
+    "value" : "9408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Web.test_example2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6161f167f97dd269",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=86.0.4240.75)",
+      "time" : {
+        "start" : 1602515328785,
+        "stop" : 1602515331272,
+        "duration" : 2487
+      }
+    }, {
+      "uid" : "8b0c102f36204a13",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=86.0.4240.75)",
+      "time" : {
+        "start" : 1602515242252,
+        "stop" : 1602515244722,
+        "duration" : 2470
+      }
+    }, {
+      "uid" : "a2be1262b1a03c0c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=86.0.4240.75)",
+      "time" : {
+        "start" : 1602431446674,
+        "stop" : 1602431459717,
+        "duration" : 13043
+      }
+    }, {
+      "uid" : "729f611e9eb8bce7",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
+      "time" : {
+        "start" : 1602431407707,
+        "stop" : 1602431421269,
+        "duration" : 13562
+      }
+    }, {
+      "uid" : "58e74252f29722a5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=86.0.4240.75)",
+      "time" : {
+        "start" : 1602431397182,
+        "stop" : 1602431400044,
+        "duration" : 2862
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0014193e97180a0.json",
+  "parameterValues" : [ ]
+}

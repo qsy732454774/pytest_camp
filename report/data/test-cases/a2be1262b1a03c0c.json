@@ -1,5 +1,5 @@
 {
-  "uid" : "a76a83034d34882a",
+  "uid" : "a2be1262b1a03c0c",
   "name" : "test_Userinfo",
   "fullName" : "Web.test_example2.Test_Comm#test_Userinfo",
   "historyId" : "14b31ac21cf16034c30bb52b8a931291",
@@ -24,10 +24,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
@@ -40,10 +40,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -75,36 +75,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "f96285cbc5eeb3ae",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
-      "time" : {
-        "start" : 1602431407707,
-        "stop" : 1602431421269,
-        "duration" : 13562
-      }
-    }, {
-      "uid" : "414c957a6315f618",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=86.0.4240.75)",
-      "time" : {
-        "start" : 1602431397182,
-        "stop" : 1602431400044,
-        "duration" : 2862
-      }
-    } ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a76a83034d34882a.json",
+  "source" : "a2be1262b1a03c0c.json",
   "parameterValues" : [ ]
 }

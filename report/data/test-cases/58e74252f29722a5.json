@@ -1,5 +1,5 @@
 {
-  "uid" : "414c957a6315f618",
+  "uid" : "58e74252f29722a5",
   "name" : "test_Userinfo",
   "fullName" : "Web.test_example2.Test_Comm#test_Userinfo",
   "historyId" : "14b31ac21cf16034c30bb52b8a931291",
@@ -24,10 +24,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
@@ -40,10 +40,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
-    "hasContent" : false,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "stepsCount" : 0,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -81,6 +81,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "414c957a6315f618.json",
+  "source" : "58e74252f29722a5.json",
   "parameterValues" : [ ]
 }

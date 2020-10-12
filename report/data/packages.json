@@ -5,7 +5,7 @@
     "name" : "Suites.test_example1",
     "children" : [ {
       "name" : "test_login",
-      "uid" : "140c21b0e31a37e8",
+      "uid" : "c21e866cb5689176",
       "parentUid" : "be15bac45b51f2938375376acd10b00d",
       "status" : "passed",
       "time" : {
@@ -22,26 +22,26 @@
     "name" : "Web.test_example2",
     "children" : [ {
       "name" : "test_login",
-      "uid" : "31a895b5e255793b",
+      "uid" : "d90d9e31999702f9",
       "parentUid" : "eb381fd317093a94938caebcc6435f4c",
       "status" : "passed",
       "time" : {
-        "start" : 1602431396581,
-        "stop" : 1602431397179,
-        "duration" : 598
+        "start" : 1602515389195,
+        "stop" : 1602515389831,
+        "duration" : 636
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_Userinfo",
-      "uid" : "a76a83034d34882a",
+      "uid" : "d0014193e97180a0",
       "parentUid" : "eb381fd317093a94938caebcc6435f4c",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1602431446674,
-        "stop" : 1602431459717,
-        "duration" : 13043
+        "start" : 1602515389834,
+        "stop" : 1602515392499,
+        "duration" : 2665
       },
       "flaky" : false,
       "newFailed" : false,

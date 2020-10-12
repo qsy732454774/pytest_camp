@@ -8,5 +8,6 @@ import os
 
 import pytest
 
-pytest.main(['-s','Web/test_example2.py','--alluredir','./temp','--reruns','2'])
+#pytest.main(['-s','Web/test_example2.py','--alluredir','./temp','--reruns','2'])
+pytest.main(['-s','Web/test_example2.py','--alluredir','./temp'])
 os.system('allure generate ./temp -o ./report --clean')

@@ -1,5 +1,5 @@
 {
-  "uid" : "140c21b0e31a37e8",
+  "uid" : "c21e866cb5689176",
   "name" : "test_login",
   "fullName" : "Suites.test_example1.Test_Ex1#test_login",
   "historyId" : "5cec35245b71e08d4c80e0170e7f3656",
@@ -48,7 +48,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "86d239963a8510ce",
+      "uid" : "796bec9d317679c7",
       "status" : "passed",
       "time" : {
         "start" : 1602430905659,
@@ -56,7 +56,7 @@
         "duration" : 0
       }
     }, {
-      "uid" : "b7218dda995dc462",
+      "uid" : "e7811455e340a059",
       "status" : "passed",
       "time" : {
         "start" : 1602430702272,
@@ -67,6 +67,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "140c21b0e31a37e8.json",
+  "source" : "c21e866cb5689176.json",
   "parameterValues" : [ ]
 }

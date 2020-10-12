@@ -30,11 +30,11 @@ class Test_Comm:
         # 切换iframe
         time.sleep(1)
         self.driver.switch_to.frame(self.driver.find_element_by_xpath('//*[@id="layui-layer-iframe1"]'))
-        abspath = os.getcwd()
-        filepath = os.path.join(abspath, "jpg.jpg")
+        """abspath = os.getcwd()
+        filepath = os.path.join(abspath, "123.jpg")"""
         # 上传图片
         self.driver.find_element_by_xpath('//*[@id="filePicker"]/div[2]/input')\
-            .send_keys(filepath)
+            .send_keys("C:\\Users\\钱思远\\PycharmProjects\\pytest_camp\\lib\\images\\123.jpg")
         self.driver.find_element_by_xpath('//*[@id="uploader"]/div[1]/div[3]/div[3]').click()
         # self.driver.find_element_by_xpath('/html/body/div[3]/div/div[2]/div[2]/div/div[2]/form/ul[5]/li[2]/div[3]/input').click()
 
