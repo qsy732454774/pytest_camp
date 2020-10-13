@@ -1,5 +1,43 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'WebKey' object has no attribute '打开登录页'",
+      "children" : [ {
+        "name" : "test_login[listcases0]",
+        "uid" : "11745fd8b68d9289",
+        "parentUid" : "f9f17eb662c5e894db304b8c391a054f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602602166779,
+          "stop" : 1602602166779,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': 'xpath=//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=//*[@id=\"loginform\"]/div/div[6]/a', 'value': 'aaaa'}]}" ]
+      } ],
+      "uid" : "f9f17eb662c5e894db304b8c391a054f"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"preview\"]\"}\n  (Session info: chrome=86.0.4240.75)",
+      "children" : [ {
+        "name" : "test_Userinfo",
+        "uid" : "81bd2a0c371b0e3e",
+        "parentUid" : "d1699f1ef5d8d53bbe6e02d2a70fa028",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602602166867,
+          "stop" : 1602602178782,
+          "duration" : 11915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d1699f1ef5d8d53bbe6e02d2a70fa028"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_login",
-    "uid" : "c21e866cb5689176",
+    "uid" : "e01a292a2e0c97f6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -16,7 +16,7 @@
     "parameters" : [ ]
   }, {
     "name" : "test_login",
-    "uid" : "d90d9e31999702f9",
+    "uid" : "e48605de1949d6e9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -29,13 +29,65 @@
     "parameters" : [ ]
   }, {
     "name" : "test_Userinfo",
-    "uid" : "d0014193e97180a0",
+    "uid" : "e84b0394f5c5610a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
       "start" : 1602515389834,
       "stop" : 1602515392499,
       "duration" : 2665
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login",
+    "uid" : "3e5c36047ae565df",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602598990543,
+      "stop" : 1602598991177,
+      "duration" : 634
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_Userinfo",
+    "uid" : "e1f79a72bc950bdf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1602598991179,
+      "stop" : 1602598993920,
+      "duration" : 2741
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_login[listcases0]",
+    "uid" : "11745fd8b68d9289",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1602602166779,
+      "stop" : 1602602166779,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': 'xpath=//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=//*[@id=\"loginform\"]/div/div[6]/a', 'value': 'aaaa'}]}" ]
+  }, {
+    "name" : "test_Userinfo",
+    "uid" : "81bd2a0c371b0e3e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1602602166867,
+      "stop" : 1602602178782,
+      "duration" : 11915
     },
     "flaky" : false,
     "newFailed" : false,

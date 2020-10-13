@@ -9,12 +9,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d90d9e31999702f9",
+      "uid" : "e48605de1949d6e9",
       "status" : "passed",
       "time" : {
         "start" : 1602515389195,
         "stop" : 1602515389831,
         "duration" : 636
+      }
+    } ]
+  },
+  "8195b4c18afb654768460b79ab82f980" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e5c36047ae565df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602598990543,
+        "stop" : 1602598991177,
+        "duration" : 634
       }
     } ]
   },
@@ -28,12 +47,71 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0014193e97180a0",
+      "uid" : "e84b0394f5c5610a",
       "status" : "passed",
       "time" : {
         "start" : 1602515389834,
         "stop" : 1602515392499,
         "duration" : 2665
+      }
+    } ]
+  },
+  "d0083625c26d0b92ab379905399028bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11745fd8b68d9289",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebKey' object has no attribute '打开登录页'",
+      "time" : {
+        "start" : 1602602166779,
+        "stop" : 1602602166779,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a34657cde64841d090686ac58738bbc7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81bd2a0c371b0e3e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"preview\"]\"}\n  (Session info: chrome=86.0.4240.75)",
+      "time" : {
+        "start" : 1602602166867,
+        "stop" : 1602602178782,
+        "duration" : 11915
+      }
+    } ]
+  },
+  "336da2126791642681e032e1dca10776" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1f79a72bc950bdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602598991179,
+        "stop" : 1602598993920,
+        "duration" : 2741
       }
     } ]
   },
@@ -47,7 +125,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c21e866cb5689176",
+      "uid" : "e01a292a2e0c97f6",
       "status" : "passed",
       "time" : {
         "start" : 1602430930712,

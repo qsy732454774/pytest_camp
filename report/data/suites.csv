@@ -1,4 +1,12 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Oct 12 23:09:49 CST 2020","Mon Oct 12 23:09:49 CST 2020","636","Web","test_example2","Test_Comm","","","test_login",""
-"passed","Mon Oct 12 23:09:49 CST 2020","Mon Oct 12 23:09:52 CST 2020","2665","Web","test_example2","Test_Comm","","","test_Userinfo",""
+"broken","Tue Oct 13 23:16:06 CST 2020","Tue Oct 13 23:16:06 CST 2020","0","ddt","Commerce_test","Test_Commerce","","","test_login[listcases0]","self.web.geturl(""http://testingedu.com.cn:8000/index.php/Home/user/login.html"")
+        self.web.input('//*[@id=""username""]',""13800138006"")
+        self.web.input('//*[@id=""password""]',""123456"")
+        self.web.input('//*[@id=""verify_code""]',""1234"")
+        self.web.click('//a[contains(text(),""登"")]')"
+"passed","Tue Oct 13 22:23:11 CST 2020","Tue Oct 13 22:23:13 CST 2020","2741","Web","test_example3","Test_Comm","","","test_Userinfo",""
 "passed","Sun Oct 11 23:42:10 CST 2020","Sun Oct 11 23:42:10 CST 2020","0","Suites","test_example1","Test_Ex1","","","test_login",""
+"passed","Mon Oct 12 23:09:49 CST 2020","Mon Oct 12 23:09:52 CST 2020","2665","Web","test_example2","Test_Comm","","","test_Userinfo",""
+"passed","Tue Oct 13 22:23:10 CST 2020","Tue Oct 13 22:23:11 CST 2020","634","Web","test_example3","Test_Comm","","","test_login",""
+"broken","Tue Oct 13 23:16:06 CST 2020","Tue Oct 13 23:16:18 CST 2020","11915","ddt","Commerce_test","Test_Commerce","","","test_Userinfo",""
+"passed","Mon Oct 12 23:09:49 CST 2020","Mon Oct 12 23:09:49 CST 2020","636","Web","test_example2","Test_Comm","","","test_login",""

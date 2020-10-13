@@ -1,12 +1,12 @@
 {
-  "uid" : "6b51c98b7d11d55a",
+  "uid" : "3e5c36047ae565df",
   "name" : "test_login",
-  "fullName" : "Web.test_example2.Test_Comm#test_login",
-  "historyId" : "d5f8e7b8c2814d67065b26f2f6834c20",
+  "fullName" : "Web.test_example3.Test_Comm#test_login",
+  "historyId" : "8195b4c18afb654768460b79ab82f980",
   "time" : {
-    "start" : 1602515241688,
-    "stop" : 1602515242250,
-    "duration" : 562
+    "start" : 1602598990543,
+    "stop" : 1602598991177,
+    "duration" : 634
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,41 +14,41 @@
   "beforeStages" : [ {
     "name" : "_Class__pytest_setup_class",
     "time" : {
-      "start" : 1602515236373,
-      "stop" : 1602515241675,
-      "duration" : 5302
+      "start" : 1602598985282,
+      "stop" : 1602598990541,
+      "duration" : 5259
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
     "time" : {
-      "start" : 1602515244839,
-      "stop" : 1602515246912,
-      "duration" : 2073
+      "start" : 1602598993921,
+      "stop" : 1602598996041,
+      "duration" : 2120
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "parentSuite",
     "value" : "Web"
   }, {
     "name" : "suite",
-    "value" : "test_example2"
+    "value" : "test_example3"
   }, {
     "name" : "subSuite",
     "value" : "Test_Comm"
@@ -57,7 +57,7 @@
     "value" : "LAPTOP-U92SLKP9"
   }, {
     "name" : "thread",
-    "value" : "13576-MainThread"
+    "value" : "8932-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -66,19 +66,29 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "Web.test_example2"
+    "value" : "Web.test_example3"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5815b952abc4c06a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602598608419,
+        "stop" : 1602598609028,
+        "duration" : 609
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6b51c98b7d11d55a.json",
+  "source" : "3e5c36047ae565df.json",
   "parameterValues" : [ ]
 }

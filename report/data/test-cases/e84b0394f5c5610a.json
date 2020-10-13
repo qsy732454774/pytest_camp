@@ -1,5 +1,5 @@
 {
-  "uid" : "d0014193e97180a0",
+  "uid" : "e84b0394f5c5610a",
   "name" : "test_Userinfo",
   "fullName" : "Web.test_example2.Test_Comm#test_Userinfo",
   "historyId" : "14b31ac21cf16034c30bb52b8a931291",
@@ -22,10 +22,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "afterStages" : [ {
     "name" : "_Class__pytest_setup_class::0",
@@ -38,10 +38,10 @@
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
   } ],
   "labels" : [ {
     "name" : "parentSuite",
@@ -78,7 +78,7 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "6161f167f97dd269",
+      "uid" : "7309f78783b45e0e",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=86.0.4240.75)",
       "time" : {
@@ -87,7 +87,7 @@
         "duration" : 2487
       }
     }, {
-      "uid" : "8b0c102f36204a13",
+      "uid" : "cdb396854a4f541d",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=86.0.4240.75)",
       "time" : {
@@ -96,7 +96,7 @@
         "duration" : 2470
       }
     }, {
-      "uid" : "a2be1262b1a03c0c",
+      "uid" : "f9638ccfbb18018",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: chrome not reachable\n  (Session info: chrome=86.0.4240.75)",
       "time" : {
@@ -105,7 +105,7 @@
         "duration" : 13043
       }
     }, {
-      "uid" : "729f611e9eb8bce7",
+      "uid" : "29be556eb7f9db43",
       "status" : "broken",
       "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'click'",
       "time" : {
@@ -114,7 +114,7 @@
         "duration" : 13562
       }
     }, {
-      "uid" : "58e74252f29722a5",
+      "uid" : "f29f426d2a670e60",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: \n  (Session info: chrome=86.0.4240.75)",
       "time" : {
@@ -126,6 +126,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d0014193e97180a0.json",
+  "source" : "e84b0394f5c5610a.json",
   "parameterValues" : [ ]
 }

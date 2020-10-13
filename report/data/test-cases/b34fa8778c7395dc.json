@@ -1,11 +1,11 @@
 {
-  "uid" : "c21e866cb5689176",
+  "uid" : "b34fa8778c7395dc",
   "name" : "test_login",
   "fullName" : "Suites.test_example1.Test_Ex1#test_login",
   "historyId" : "5cec35245b71e08d4c80e0170e7f3656",
   "time" : {
-    "start" : 1602430930712,
-    "stop" : 1602430930712,
+    "start" : 1602430905659,
+    "stop" : 1602430905659,
     "duration" : 0
   },
   "status" : "passed",
@@ -27,7 +27,7 @@
     "value" : "LAPTOP-U92SLKP9"
   }, {
     "name" : "thread",
-    "value" : "8540-MainThread"
+    "value" : "15832-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -43,30 +43,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "796bec9d317679c7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1602430905659,
-        "stop" : 1602430905659,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "e7811455e340a059",
-      "status" : "passed",
-      "time" : {
-        "start" : 1602430702272,
-        "stop" : 1602430702272,
-        "duration" : 0
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c21e866cb5689176.json",
+  "source" : "b34fa8778c7395dc.json",
   "parameterValues" : [ ]
 }

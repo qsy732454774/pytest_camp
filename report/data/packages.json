@@ -5,7 +5,7 @@
     "name" : "Suites.test_example1",
     "children" : [ {
       "name" : "test_login",
-      "uid" : "c21e866cb5689176",
+      "uid" : "e01a292a2e0c97f6",
       "parentUid" : "be15bac45b51f2938375376acd10b00d",
       "status" : "passed",
       "time" : {
@@ -19,34 +19,98 @@
     } ],
     "uid" : "Suites.test_example1"
   }, {
-    "name" : "Web.test_example2",
+    "name" : "Web",
     "children" : [ {
-      "name" : "test_login",
-      "uid" : "d90d9e31999702f9",
-      "parentUid" : "eb381fd317093a94938caebcc6435f4c",
-      "status" : "passed",
+      "name" : "test_example2",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "e48605de1949d6e9",
+        "parentUid" : "eb381fd317093a94938caebcc6435f4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602515389195,
+          "stop" : 1602515389831,
+          "duration" : 636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Userinfo",
+        "uid" : "e84b0394f5c5610a",
+        "parentUid" : "eb381fd317093a94938caebcc6435f4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602515389834,
+          "stop" : 1602515392499,
+          "duration" : 2665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb381fd317093a94938caebcc6435f4c"
+    }, {
+      "name" : "test_example3",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "3e5c36047ae565df",
+        "parentUid" : "da378bb47504586ec93e6e44cc425ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602598990543,
+          "stop" : 1602598991177,
+          "duration" : 634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Userinfo",
+        "uid" : "e1f79a72bc950bdf",
+        "parentUid" : "da378bb47504586ec93e6e44cc425ca2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602598991179,
+          "stop" : 1602598993920,
+          "duration" : 2741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da378bb47504586ec93e6e44cc425ca2"
+    } ],
+    "uid" : "bfd2e0a2f68fa73dac290d6617c76480"
+  }, {
+    "name" : "ddt.Commerce_test",
+    "children" : [ {
+      "name" : "test_login[listcases0]",
+      "uid" : "11745fd8b68d9289",
+      "parentUid" : "65371e2c418a0732e86b5518f74cf798",
+      "status" : "broken",
       "time" : {
-        "start" : 1602515389195,
-        "stop" : 1602515389831,
-        "duration" : 636
+        "start" : 1602602166779,
+        "stop" : 1602602166779,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ ]
+      "parameters" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'http://testingedu.com.cn:8000/index.php/Home/user/login.html'}, {'name': '输入用户名', 'method': 'input', 'locator': 'xpath=//*[@id=\"username\"]', 'value': 13800138006}, {'name': '输入密码', 'method': 'input', 'locator': 'xpath=//*[@id=\"password\"]', 'value': 123456}, {'name': '输入验证码', 'method': 'input', 'locator': 'xpath=//*[@id=\"verify_code\"]', 'value': 111111}, {'name': '点击登录', 'method': 'click', 'locator': 'xpath=//*[@id=\"loginform\"]/div/div[6]/a', 'value': 'aaaa'}]}" ]
     }, {
       "name" : "test_Userinfo",
-      "uid" : "d0014193e97180a0",
-      "parentUid" : "eb381fd317093a94938caebcc6435f4c",
-      "status" : "passed",
+      "uid" : "81bd2a0c371b0e3e",
+      "parentUid" : "65371e2c418a0732e86b5518f74cf798",
+      "status" : "broken",
       "time" : {
-        "start" : 1602515389834,
-        "stop" : 1602515392499,
-        "duration" : 2665
+        "start" : 1602602166867,
+        "stop" : 1602602178782,
+        "duration" : 11915
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "Web.test_example2"
+    "uid" : "ddt.Commerce_test"
   } ]
 }

@@ -5,9 +5,10 @@
 @Funtion    : 运行入口
 """
 import os
-
 import pytest
+from ddt.params import datas
+
 
 #pytest.main(['-s','Web/test_example2.py','--alluredir','./temp','--reruns','2'])
-pytest.main(['-s','Web/test_example2.py','--alluredir','./temp'])
+pytest.main(['-s','ddt/Commerce_test.py','--alluredir','./temp'])
 os.system('allure generate ./temp -o ./report --clean')
